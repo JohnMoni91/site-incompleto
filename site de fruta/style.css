@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+#divBusca {
+    background: white;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+    width: 100%;
+}
+
+#divBusca p {
+    margin: 0;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+#textoBuscar {
+    border: solid 2px #ced4da;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 60%;
+    max-width: 400px;
+    display: inline-block;
+}
+
+#botaoLogin, #botaoConta {
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
